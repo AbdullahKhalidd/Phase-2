@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<?php
-include_once 'includes/html_head.php';
-?>
+
 <body>
-    <?php
-      include_once 'includes/top1.php';
-    ?>
+    <div class="container-fluid">
+        <img src="images/logo.png" alt="logo" width="50" height="50" />
+        <span class="float-right">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </span>
+</div>
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item active">
@@ -90,8 +94,6 @@ include_once 'includes/html_head.php';
             </div>
         </div>
       </div>
-        <?php
-          include_once 'includes/footer.php';
-        ?>
+        
     </body>
 </html>
