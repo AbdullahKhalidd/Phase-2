@@ -9,7 +9,7 @@ include_once 'includes/html_head.php';
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="Home.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="About_Us.php">About Us</a>

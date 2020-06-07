@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
   }
 
 
-  $query = "UPDATE tblproducts SET productname='$pname', productprice='$pprice', productcode='$pcode',productinstock='$stock',
+  $query = "UPDATE tblproducts SET productname='$pname',productprice='$pprice', productcode='$pcode',productinstock='$stock',
   productdiscount='$pdiscount', productsizes='$size', productdetails='$pdetail', productprofile='$pimage'
   WHERE productid='$id' ";
 
